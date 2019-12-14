@@ -82,7 +82,11 @@ let lion = new Animal("Lion");
 //is used to provide type information when there is no explicit
 //type annotation. For example, in this code
 let x = 3;
-// automatimally detexts x is a number.
+// automatimally detects x is a number.
 
 //Union Type
-let confused: string | number = 'hello'
+let confused: string | number = 'hello';
+
+// Initialize TypeScript project
+tsc --init // creates tsconfig.json
+tsc <filename.ts> --watch // same as nodemon
